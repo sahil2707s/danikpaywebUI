@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.flex-container {
+    display: flex;
+}
+
+.left-container {
+    width: 50%;
+    height: 100vh;
+    
+    
+}
+
+.left-container .container-box {
+    background-color: antiquewhite;
+    height: 100vh;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding: 100px;
+}
+
+
+.right-container {
+    align-items: center;
+    justify-content: center;
+    padding-left: 80px;
+    
+}
+
+.logo {
+    margin-top: 70px;
+    margin-left: 0px;
+}
+
+.text-1 p {
+    margin-top: 110px;
+    padding-bottom: 30px;
+    
+    font-weight: 200;
+    width: 50%;
+}
+
+.text-2 p {
+    padding-bottom: 30px;
+}
+
+.Mobile .btn1{
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+}
+
+.password .btn2 {
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+}
+
+.password {
+    padding-top: 30px;
+}
+
+.forgot {
+    padding-top: 30px;
+}
+
+.forgot a{
+    text-decoration: none;
+    color: rgb(3, 255, 108);
+}
+
+
+.login-button {
+    padding-top: 30px;
+    
+}
+
+.login-button button {
+    background: rgb(3, 255, 108);
+    width: 300px;
+    margin-left: 10px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+}
+
+@media srceen and (max-width:600px) {
+    flex-container {
+        max-width: 50%;
+    }
+}
+
